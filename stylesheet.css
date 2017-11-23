@@ -1,3 +1,86 @@
 body {
-	background-color: red;
+	background-color: white;	
+}
+
+img	{
+	width: 70%;
+	height: auto;
+}
+
+#second {
+	position: fixed;
+	left: 22.5%;
+	top: 10%;
+}
+
+h1 {
+	text-align: center;
+	left: 22.5%;
+	top: 5%;
+	font-family: arial, sans-serif;
+	font-size: 4.5vw;
+	font-weight: normal;
+	margin-bottom: 80px;
+}
+
+h2 {
+	text-align: center;
+	left: 22.5%;
+	font-family: arial, sans-serif;
+	font-size: 2.5vw;
+	font-weight: normal;
+	margin-bottom: 80px;
+}
+
+p {
+	font-family: arial, sans-serif;
+	font-size: 2vw;
+	color: black;
+	text-align: justify;
+	line-height: 140%;
+	letter-spacing: -0.5px;
+	word-spacing: -0.9px;
+}
+
+p2 {
+	font-family: times, serif;
+	font-size: 2vw;
+	color: black;
+	text-align: justify;
+	line-height: 130%;
+	letter-spacing: -0.5px;
+	word-spacing: -0.9px;
+	font-style: italic;
+}
+
+#text {
+	position: absolute;
+	left: 25%;
+	width: 50%;
+	top: 50%;
+	margin-bottom: 200px;
+
+}
+
+a {
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 2vw;
+  position: relative;
+  color: black;
+  z-index: 100;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid black;
+  transition: 0.3s;
+}
+
+a:hover:after {
+  width: 100%;
 }
