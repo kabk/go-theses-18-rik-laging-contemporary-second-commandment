@@ -18,7 +18,7 @@ h1 {
 	left: 22.5%;
 	top: 5%;
 	font-family: arial, sans-serif;
-	font-size: 4.5vw;
+	font-size: 5vw;
 	font-weight: normal;
 	margin-bottom: 80px;
 }
@@ -29,58 +29,177 @@ h2 {
 	font-family: arial, sans-serif;
 	font-size: 2.5vw;
 	font-weight: normal;
-	margin-bottom: 80px;
 }
 
 p {
 	font-family: arial, sans-serif;
-	font-size: 2vw;
 	color: black;
-	text-align: justify;
-	line-height: 140%;
-	letter-spacing: -0.5px;
-	word-spacing: -0.9px;
-}
-
-p2 {
-	font-family: times, serif;
-	font-size: 2vw;
-	color: black;
-	text-align: justify;
+	font-size: calc(8px + 1.5vw);
+    text-align: justify;
 	line-height: 130%;
-	letter-spacing: -0.5px;
-	word-spacing: -0.9px;
-	font-style: italic;
+	letter-spacing: -0.60px;
+	word-spacing: -3px;
 }
 
-#text {
-	position: absolute;
-	left: 25%;
-	width: 50%;
-	top: 50%;
-	margin-bottom: 200px;
+
+/*WIDE*/
+@media all and (min-width: 960px) {
+	
+	#text {
+		position: absolute;
+		left: 22.5%;
+		width: 55%;
+		top: 40%;
+		margin-bottom: 200px;
+		background-color: white;
+	}
+
+	h1, h2 {
+		top: 20%;
+		margin-bottom: 80px;
+	}
+
+	p2, #italicLink {
+		font-family: times, serif;
+		color: black;
+		font-size: calc(8px + 1.5vw);
+	    text-align: justify;
+		line-height: 140%;
+		font-style: italic;
+		letter-spacing: 0.025vw;
+		word-spacing: 0.15vw;
+	}
+
+	/*Underline Animation*/
+	a {
+		text-decoration: none;
+		font-family: arial, sans-serif;
+		font-size: calc(8px + 1.5vw);
+		position: relative;
+		color: black;
+		z-index: 100;
+	}
+
+	a:after {
+		content: '';
+		position: absolute;
+		bottom: -1px;
+		left: 0;
+		width: 0%;
+		border-bottom: 1px solid black;
+		transition: 0.3s;
+	}
+
+	a:hover:after {
+  		width: 100%;
+	}
 
 }
 
-a {
-  text-decoration: none;
-  font-family: arial, sans-serif;
-  font-size: 2vw;
-  position: relative;
-  color: black;
-  z-index: 100;
+/*MEDIUM*/
+@media all and (max-width: 959px) and (min-width: 600px) {
+	
+	#text {
+		position: absolute;
+		left: 20%;
+		width: 60%;
+		top: 35%;
+		margin-bottom: 200px;
+		background-color: white;
+    }
+
+	h1, h2 {
+		top: 20%;
+		margin-bottom: 50px;
+	}
+
+	p2, #italicLink {
+		font-family: times, serif;
+		color: black;
+	    text-align: justify;
+		line-height: 140%;
+		letter-spacing: 0.025vw;
+		word-spacing: 0.1vw;
+		font-style: italic;
+	}
+
+	/*Underline Animation*/
+	a {
+		text-decoration: none;
+		font-family: arial, sans-serif;
+		font-size: calc(8px + 1.5vw);
+		position: relative;
+		color: black;
+		z-index: 100;
+	}
+
+	a:after {
+		content: '';
+		position: absolute;
+		bottom: -2px;
+		left: 0;
+		width: 0%;
+		border-bottom: 0.2px solid black;
+		transition: 0.3s;
+	}
+
+	a:hover:after {
+  		width: 100%;
+	}
+
 }
 
-a:after {
-  content: '';
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 0%;
-  border-bottom: 2px solid black;
-  transition: 0.3s;
+/*SMALL*/
+@media all and (max-width: 599px) and (min-width: 50px) {
+	
+	#text {
+		position: absolute;
+		left: 17.5%;
+		width: 65%;
+		top: 25%;
+		margin-bottom: 200px;
+		background-color: white;
+	}
+
+	h1, h2 {
+		top: 20%;
+		margin-bottom: 30px;
+	}
+
+	p2, #italicLink {
+		font-family: times, serif;
+		color: black;
+	    text-align: justify;
+		line-height: 100%;
+		letter-spacing: 0.025vw;
+		word-spacing: 0.075vw;
+		font-style: italic;
+	}
+
+
+	/*Underline Animation*/
+	a {
+		text-decoration: none;
+		font-family: arial, sans-serif;
+		font-size: calc(8px + 1.5vw);
+		position: relative;
+		color: black;
+		z-index: 100;
+	}
+
+	a:after {
+		content: '';
+		position: absolute;
+		bottom: -1px;
+		left: 0;
+		width: 0%;
+		border-bottom: 1px solid black;
+		transition: 0.3s;
+	}
+
+	a:hover:after {
+  		width: 100%;
+	}
 }
 
-a:hover:after {
-  width: 100%;
-}
+
