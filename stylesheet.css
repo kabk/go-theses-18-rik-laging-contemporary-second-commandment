@@ -52,7 +52,7 @@
 
 
 body {
-	background-color: #e5e5e5;
+	background-color: white;
 	-webkit-font-smoothing: antialiased;
 	word-wrap: break-word;	
 }
@@ -106,7 +106,7 @@ h3 {
 }
 
 p {
-    font-family: arial, sans-serif;
+    font-family: 'Arial Narrow', 'arial_narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     padding: 0;
@@ -173,11 +173,11 @@ p {
 .bookmarksource {
 	margin-top: -30px; 
   	padding-top: 30px; 
-  	font-family: arial;
+  	font-family: 'Arial Narrow', 'arial_narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
   	text-align: left-justify;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     line-height: 1.22;
     color: rgb(0, 0, 0);
     text-rendering: optimizeLegibility;
@@ -216,7 +216,7 @@ p {
 
 	h1 {
 		top: 20%;
-		font-family: 'Times New Roman MT';
+		font-family: 'Arial Narrow', 'arial_narrow', Arial, sans-serif;
 		margin-top: 100px;
 		margin-bottom: 150px;
 	} 
@@ -230,7 +230,7 @@ p {
 	/*Underline Animation*/
 	a {
 		text-decoration: none;
-		font-family: arial, sans-serif;
+		font-family: 'Arial Narrow', 'arial_narrow', Arial, sans-serif;
 		font-size: 1.8vw;
 		/*font-size: calc(8px + 1.4vw);*/
 		position: relative;
@@ -286,14 +286,15 @@ p {
 /*Title Design*/
 #four_k {
 	position: relative;
-	left: 20.5%;
+	left: 26.5%;
 	top: 0%;
     width: 60.5%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
     border: 0px solid black;
-    animation:pulse 0s infinite alternate;
-    animation:tronFilter 10s infinite; 
+/*    animation:pulse 0s infinite alternate;
+    animation:tronFilter 10s infinite; */
     z-index: 1000;
 
 }
@@ -481,9 +482,9 @@ p {
 /*CHAPTER 1*/
 #chapter1-span {
 	position: fixed;
-	font-size: 2vw;
+	font-size: 1.2vw;
 /*	background-color: red;*/
-	width: 1%;
+	width: 20%;
 	height: auto;
 	top: 8%;
 	left: 2%;
@@ -493,8 +494,8 @@ p {
 #chapter2-span {
 	position: fixed;
 /*	background-color: red;*/
-	font-size: 2vw;
-	width: 1%;
+	font-size: 1.2vw;
+	width: 20%;
 	height: auto;
 	top: 15%;
 	left: 2%;
@@ -505,11 +506,11 @@ p {
 #chapter3-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 1%;
+	width: 20%;
 	height: auto;
 	top: 22%;
 	left: 2%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 /*CHAPTER 4*/
@@ -517,11 +518,11 @@ p {
 #chapter4-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 1%;
+	width: 20%;
 	height: auto;
 	top: 29%;
 	left: 2%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 /*CHAPTER 5*/
@@ -529,11 +530,11 @@ p {
 #chapter5-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 1%;
+	width: 20%;
 	height: auto;
 	top: 36%;
 	left: 2%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
     
 
@@ -542,11 +543,11 @@ p {
 #chapter6-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 1%;
+	width: 20%;
 	height: auto;
 	top: 43%;
 	left: 2%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 /*CHAPTER 7*/
@@ -554,11 +555,11 @@ p {
 #chapter7-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 1%;
+	width: 20%;
 	height: auto;
 	top: 50%;
 	left: 2%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 /*CHAPTER 8*/
@@ -566,11 +567,11 @@ p {
 #chapter8-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 1%;
+	width: 20%;
 	height: auto;
 	top: 57%;
 	left: 2%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 /*CHAPTER 9*/
@@ -578,11 +579,11 @@ p {
 #chapter9-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 1%;
+	width: 20%;
 	height: auto;
 	top: 64%;
 	left: 2%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 /*CHAPTER 10*/
@@ -590,11 +591,11 @@ p {
 #chapter10-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 2.3%;
+	width: 20%;
 	height: auto;
 	top: 71%;
 	left: 1.5%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 /*CHAPTER 11*/
@@ -602,11 +603,11 @@ p {
 #chapter11-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 2.3%;
+	width: 20%;
 	height: auto;
 	top: 78%;
 	left: 1.5%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 /*CHAPTER 12*/
@@ -614,11 +615,11 @@ p {
 #chapter12-span {
 	position: fixed;
 /*	background-color: red;*/
-	width: 2.3%;
+	width: 20%;
 	height: auto;
 	top: 85%;
 	left: 1.5%;
-	font-size: 2vw;
+	font-size: 1.2vw;
 }
 
 
